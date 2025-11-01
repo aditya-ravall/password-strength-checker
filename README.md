@@ -1,31 +1,36 @@
+![Password Strength Checker](https://raw.githubusercontent.com/aditya-ravall/password-strength-checker/main/preview.png)
+
 # 🔐 Password Strength Checker
 
-A simple and interactive web app that checks how strong your password is — instantly!  
+An interactive web app that checks how strong your password is — instantly!  
 It analyzes your input and gives real-time feedback like **Weak**, **Medium**, or **Strong** based on length, numbers, symbols, and uppercase letters.
 
 ---
 
-### 🚀 Live Demo
-👉 [Try it here](https://aditya-ravall.github.io/password-strength-checker/)
-(https://aditya-ravall.github.io/password-strength-checker/)
+### 🚀 Live Demo  
+👉 **[Try it here](https://aditya-ravall.github.io/password-strength-checker/)**
 
 ---
 
 ### 🧠 Features
 - Real-time password strength detection  
-- Simple and elegant UI  
-- Responsive design (works on mobile & desktop)  
-- No backend required — runs fully in the browser  
+- Simple, modern, and responsive design  
+- Works on any device (mobile, tablet, desktop)  
+- No backend required — 100% client-side  
 
 ---
 
 ### 🧰 Tech Stack
-- **HTML5** – for structure  
-- **CSS3** – for styling  
-- **JavaScript (ES6)** – for functionality  
+- **HTML5** – Structure  
+- **CSS3** – Styling  
+- **JavaScript (ES6)** – Logic and Interactivity  
 
 ---
 
+### 📸 Preview
+![Password Strength Checker Preview](https://raw.githubusercontent.com/aditya-ravall/password-strength-checker/main/preview.png)
+
+---
 
 ### 🧑‍💻 Author
 **Aditya Raval**  
@@ -36,9 +41,9 @@ It analyzes your input and gives real-time feedback like **Weak**, **Medium**, o
 
 ### ⭐ Contribute
 If you find this project useful, feel free to:
-- Star ⭐ the repository  
-- Fork 🍴 and modify  
-- Share your version!
+- ⭐ Star this repository  
+- 🍴 Fork and customize it  
+- 💬 Share feedback or improvements  
 
 ---
 
