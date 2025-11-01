@@ -7,6 +7,7 @@ It analyzes your input and gives real-time feedback like **Weak**, **Medium**, o
 
 ### 🚀 Live Demo
 👉 [Try it here](https://aditya-ravall.github.io/password-strength-checker/)
+(https://aditya-ravall.github.io/password-strength-checker/)
 
 ---
 
