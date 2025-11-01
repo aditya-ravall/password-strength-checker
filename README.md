@@ -26,7 +26,7 @@ It analyzes your input and gives real-time feedback like **Weak**, **Medium**, o
 ---
 
 ### 📸 Preview
-![Password Strength Checker Preview]<img width="1536" height="1024" alt="(httpsraw githubusercontent comaditya-ravallpassword-strength-checkermainpreview png)" src="https://github.com/user-attachments/assets/986623e1-2631-481b-893f-e3779a08e112" />
+![Password Strength Checker Preview](httpsraw githubusercontent comaditya-ravallpassword-strength-checkermainpreview png)
 
 
 
