@@ -1,22 +1,35 @@
-const password = document.getElementById("password");
-const strength = document.getElementById("strength");
+function checkStrength() {
+  const password = document.getElementById("password").value;
+  const strengthText = document.getElementById("strength");
+  let strength = 0;
 
-password.addEventListener("input", () => {
-  const val = password.value;
-  let strengthValue;
+  if (password.length >= 8) strength++;
+  if (/[A-Z]/.test(password)) strength++;
+  if (/[a-z]/.test(password)) strength++;
+  if (/[0-9]/.test(password)) strength++;
+  if (/[@$!%*?&]/.test(password)) strength++;
 
-  if (val.length === 0) {
-    strengthValue = "";
-  } else if (val.length < 6) {
-    strengthValue = "Weak ❌";
-    strength.style.color = "red";
-  } else if (val.match(/[A-Z]/) && val.match(/[0-9]/) && val.match(/[^A-Za-z0-9]/)) {
-    strengthValue = "Strong ✅";
-    strength.style.color = "green";
-  } else {
-    strengthValue = "Medium ⚠️";
-    strength.style.color = "orange";
+  switch (strength) {
+    case 0:
+    case 1:
+      strengthText.textContent = "Strength: Very Weak 😞";
+      strengthText.style.color = "red";
+      break;
+    case 2:
+      strengthText.textContent = "Strength: Weak 😕";
+      strengthText.style.color = "orange";
+      break;
+    case 3:
+      strengthText.textContent = "Strength: Moderate 😐";
+      strengthText.style.color = "yellow";
+      break;
+    case 4:
+      strengthText.textContent = "Strength: Strong 🙂";
+      strengthText.style.color = "lightgreen";
+      break;
+    case 5:
+      strengthText.textContent = "Strength: Very Strong 💪";
+      strengthText.style.color = "green";
+      break;
   }
-
-  strength.textContent = strengthValue;
-});
+}
