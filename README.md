@@ -25,12 +25,6 @@ It analyzes your input and gives real-time feedback like **Weak**, **Medium**, o
 
 ---
 
-### 📸 Preview
-![Password Strength Checker Preview](https://raw.githubusercontent.com/aditya-ravall/password-strength-checker/main/preview.png)
-
-*(Tip: You can later upload a screenshot named `preview.png` in your repo root to show a live preview here.)*
-
----
 
 ### 🧑‍💻 Author
 **Aditya Raval**  
