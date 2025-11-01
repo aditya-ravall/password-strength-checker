@@ -1,5 +1,3 @@
-![Password Strength Checker](https://raw.githubusercontent.com/aditya-ravall/password-strength-checker/main/preview.png)
-
 # 🔐 Password Strength Checker
 
 An interactive web app that checks how strong your password is — instantly!  
@@ -28,7 +26,9 @@ It analyzes your input and gives real-time feedback like **Weak**, **Medium**, o
 ---
 
 ### 📸 Preview
-![Password Strength Checker Preview](https://raw.githubusercontent.com/aditya-ravall/password-strength-checker/main/preview.png)
+![Password Strength Checker Preview]<img width="1536" height="1024" alt="(httpsraw githubusercontent comaditya-ravallpassword-strength-checkermainpreview png)" src="https://github.com/user-attachments/assets/986623e1-2631-481b-893f-e3779a08e112" />
+
+
 
 ---
 
