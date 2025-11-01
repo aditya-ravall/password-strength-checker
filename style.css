@@ -1,28 +1,43 @@
 body {
+  background-color: #0d1117;
+  color: #c9d1d9;
   font-family: Arial, sans-serif;
+  text-align: center;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background: #f2f2f2;
-  margin: 0;
 }
 
 .container {
-  text-align: center;
-  background: white;
-  padding: 30px;
-  border-radius: 15px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: #161b22;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  width: 300px;
 }
 
 input {
-  width: 250px;
+  width: 100%;
   padding: 10px;
-  font-size: 16px;
-  margin-top: 10px;
-  border: 2px solid #ccc;
-  border-radius: 5px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  margin-top: 15px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #238636;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2ea043;
 }
 
 #strength {
